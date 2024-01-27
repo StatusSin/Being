@@ -89,7 +89,6 @@ public class AnimatorManager : MonoBehaviour
 
     }
 
-    //This is a comment
 
     private void OnAnimatorMove()
     {
