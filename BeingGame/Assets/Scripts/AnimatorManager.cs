@@ -89,6 +89,8 @@ public class AnimatorManager : MonoBehaviour
 
     }
 
+    //This is a comment
+
     private void OnAnimatorMove()
     {
         if (playerManager.isUsingRootMotion)
