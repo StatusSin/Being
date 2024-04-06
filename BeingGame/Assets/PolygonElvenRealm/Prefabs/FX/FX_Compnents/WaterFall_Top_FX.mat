@@ -10,7 +10,7 @@ Material:
   m_Name: WaterFall_Top_FX
   m_Shader: {fileID: 4800000, guid: 903fe97c2d85c8147a64932806c92eb1, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _VERTEXOFFSET_TOGGLE_ON
-  m_LightmapFlags: 0
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -100,12 +100,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaCutoff: 0.5
     - _Brightness: 2.16
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _Emission: 1
+    - _EnvironmentReflections: 1
     - _Float0: 0.09
     - _Float1: 3
     - _FresnelPower: 0.1
@@ -119,6 +121,7 @@ Material:
     - _OpacityBase: 0.807
     - _OpacityToggle: 0
     - _Parallax: 0.02
+    - _ReceiveShadows: 1
     - _Scoll_Speed: 0.74
     - _Smoothness: 0.029
     - _SmoothnessTextureChannel: 0
