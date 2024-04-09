@@ -2431,7 +2431,7 @@ GameObject:
   - component: {fileID: 3460536084551334598}
   m_Layer: 0
   m_Name: NestedParentArmature_Unpack
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
