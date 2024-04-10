@@ -66,6 +66,7 @@ public class Fighter : MonoBehaviour
             anim.SetBool("hit1", false);
             anim.SetBool("hit2", true);
         }
+
         if (noOfClicks >= 3 && anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("hit2"))
         {
             anim.SetBool("hit2", false);
